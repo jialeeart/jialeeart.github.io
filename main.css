@@ -1,0 +1,30 @@
+body {
+  background-image: url('./backgrounds/shrubs_w_feet_2.jpg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+nav {
+  width: 100%;
+  font-family: 'Rubik', sans-serif;
+}
+
+nav > h1 {
+  display: inline;
+}
+
+nav > #navLinks {
+  float: right;
+}
+
+nav > #navLinks > a {
+  text-decoration: none;
+  color: black;
+  padding: 1vw;
+}
+
+nav > #navLinks > a:hover {
+  text-decoration: underline;
+}
