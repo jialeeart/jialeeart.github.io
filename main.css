@@ -3,6 +3,7 @@ nav {
   width: 100%;
   position: fixed;
   top: 1vmin;
+  font-size: 2vmin;
 }
 
 nav > h1 {
@@ -254,6 +255,7 @@ nav > #navLinks > a:hover {
 
 @media screen and (max-width: 1140px) { 
     .cb-slideshow li div h3 { font-size: 140px }
+    nav {font-size: 5vmin; }
 }
 @media screen and (max-width: 600px) { 
     .cb-slideshow li div h3 { font-size: 80px }
