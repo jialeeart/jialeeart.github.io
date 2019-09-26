@@ -1,0 +1,92 @@
+#contact > #email {
+  grid-area: email;
+  place-self: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+}
+
+#contact > #email > p {
+  margin: 2vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+#contact > #email > a {
+  color: inherit;
+}
+
+#contact > #phone {
+  grid-area: phone;
+  place-self: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+}
+
+#contact > #phone > p {
+  margin: 2vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+#contact > #sm1 {
+  grid-area: sm1;
+  place-self: center; 
+}
+
+#contact > #sm2 {
+  grid-area: sm2;
+  place-self: center;
+}
+
+#contact > #sm3 {
+  grid-area: sm3;
+  place-self: center;
+}
+
+#contact > #sm4 {
+  grid-area: sm4;
+  place-self: center;
+}
+
+#contact {
+  font-family: 'Rubik', sans-serif;
+  margin-top: 30vh;
+  margin-left: 5vw;
+  margin-right: 5vw;
+  height: 50vh;
+
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-areas: 
+    "email email . sm1 sm2"
+    "phone phone . sm3 sm4";
+}
+
+@media screen and (max-width: 1140px) { 
+  #contact > #email {
+    flex-direction: column;
+  }
+
+  #contact > #phone {
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 600px) { 
+  #contact > #email {
+    flex-direction: column;
+  }
+
+  #contact > #phone {
+    flex-direction: column;
+  }
+}
