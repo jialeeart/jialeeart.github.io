@@ -12,6 +12,10 @@ nav > a > #signature {
   height: 5em;
 }
 
+nav > a > #signature:hover {
+    opacity: 0.7;
+}
+
 nav > #navLinks {
   float: right;
   padding: 1vw;

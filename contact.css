@@ -1,3 +1,19 @@
+#contactBackground {
+  background-image: url(./images/shrubs_w_feet_1.jpg);
+  background-size: cover;
+  background-position: 50% 50%;
+  background-repeat: none;
+  opacity: 0.3;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0px;
+  left: 0px;
+  z-index: -1;
+  margin: 0;
+  padding: 0;
+}
+
 #contact > #email {
   grid-area: email;
   place-self: center;
@@ -23,25 +39,8 @@
   font-size: 15vmin;  
 }
 
-#contact > #phone {
-  grid-area: phone;
-  place-self: center;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  text-align: center;
-}
-
-#contact > #phone > p {
-  margin: 2vw;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  text-align: center;
-}
-
-#contact > #phone > i {
-  font-size: 15vmin;  
+#contact > #email > a > i:hover {
+  opacity: 0.7;
 }
 
 #contact > #sm1 {
@@ -130,19 +129,24 @@
   grid-template-columns: repeat(5, 1fr);
   grid-template-areas: 
     "email email . sm1 sm2"
-    "phone phone . sm3 sm4";
+    "email email . sm3 sm4";
 }
 
 @media screen and (max-width: 1140px) { 
   #contact {
     grid-gap: 100px;
+    margin-left: 28vw;
+    margin-right: 28vw;  
+    grid-template-rows: repeat(4, 1fr);
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-areas: 
+      "email email email"
+      "email email email"
+      "sm1 . sm2"
+      "sm3 . sm4";
   }
 
   #contact > #email {
-    flex-direction: column;
-  }
-
-  #contact > #phone {
     flex-direction: column;
   }
 }
@@ -150,13 +154,19 @@
 @media screen and (max-width: 600px) { 
   #contact {
     grid-gap: 50px;
+    margin-left: 33vw;
+    margin-right: 33vw;
+    grid-template-rows: repeat(5, 1fr);
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-areas: 
+      "email email"
+      "email email"
+      ". ."
+      "sm1 sm2"
+      "sm3 sm4";
   }
 
   #contact > #email {
-    flex-direction: column;
-  }
-
-  #contact > #phone {
     flex-direction: column;
   }
 }
