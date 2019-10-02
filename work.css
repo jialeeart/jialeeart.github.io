@@ -1,0 +1,30 @@
+#work {
+  font-family: 'Rubik', sans-serif;
+  margin-top: 20vh;
+  margin-left: 5vw;
+  margin-right: 5vw;
+  height: 50vh;
+  font-size: 3vmin;
+
+  display: grid;
+  grid-gap: 10vmin 2vmin;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.workImg {
+  width: 20vmin;
+  height: 20vmin;
+  place-self: center;
+}
+
+@media screen and (max-width: 1140px) {
+  #work {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media screen and (max-width: 600px) {
+  #work {
+    grid-template-columns: repeat(2, 1fr);
+  } 
+}
