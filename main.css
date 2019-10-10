@@ -1,39 +1,41 @@
 nav {
-  font-family: 'Rubik', sans-serif;
+  font-family: 'Montserrat', 'Rubik', sans-serif;
   width: 100%;
   position: fixed;
-  top: 1vmin;
+  top: 5em;
   font-size: 2vmin;
+  margin: 0 auto;
 }
 
 nav.scrolled {
-    opacity: 0;
-    transition: all 1s ease;
+  opacity: 0;
+  transition: all 1s ease;
 }
 
 nav.scrolled.hover {
-    opacity: 1;
+  opacity: 1;
 }
 
 nav > a > #signature {
   display: inline;
-  padding: 2vw;
   height: 5em;
+  padding-left: 12vw;
 }
 
 nav > a > #signature:hover {
-    opacity: 0.7;
+  opacity: 0.7;
 }
 
 nav > #navLinks {
+  font-size: 3vmin;
   float: right;
-  padding: 1vw;
+  padding-right: 12vw;
 }
 
 nav > #navLinks > a {
   text-decoration: none;
   color: black;
-  padding: 1vw;
+  padding: 1.5vw;
 }
 
 nav > #navLinks > a:hover {
@@ -269,13 +271,26 @@ nav > #navLinks > a:hover {
 
 @media screen and (max-width: 1140px) { 
     .cb-slideshow li div h3 { font-size: 140px }
-    nav {font-size: 5vmin; }
-    nav > a > #signature {
+    /* nav {
+        width: 75%;
+        font-size: 5vmin;
+        padding-top: 5vmin;
+        padding-left: 25vmin;
+        padding-right: 25vmin;      
+    } */
+    /* nav > a > #signature {
         height: 3em;
-    }
+    } */
 }
 @media screen and (max-width: 600px) { 
     .cb-slideshow li div h3 { font-size: 80px }
+    /* nav {
+        width: 75%;
+        font-size: 5vmin;
+        padding-top: 5vmin;
+        padding-left: 25vmin;
+        padding-right: 25vmin;      
+    } */
 }
 
 /*  
