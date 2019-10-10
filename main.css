@@ -19,7 +19,7 @@ nav.scrolled.hover {
 nav > a > #signature {
   display: inline;
   height: 5em;
-  padding-left: 12vw;
+  margin-left: 12vw;
 }
 
 nav > a > #signature:hover {
@@ -29,7 +29,8 @@ nav > a > #signature:hover {
 nav > #navLinks {
   font-size: 3vmin;
   float: right;
-  padding-right: 12vw;
+  padding-top: 0.5em;
+  margin-right: 12vw;
 }
 
 nav > #navLinks > a {
@@ -271,26 +272,10 @@ nav > #navLinks > a:hover {
 
 @media screen and (max-width: 1140px) { 
     .cb-slideshow li div h3 { font-size: 140px }
-    /* nav {
-        width: 75%;
-        font-size: 5vmin;
-        padding-top: 5vmin;
-        padding-left: 25vmin;
-        padding-right: 25vmin;      
-    } */
-    /* nav > a > #signature {
-        height: 3em;
-    } */
 }
+
 @media screen and (max-width: 600px) { 
     .cb-slideshow li div h3 { font-size: 80px }
-    /* nav {
-        width: 75%;
-        font-size: 5vmin;
-        padding-top: 5vmin;
-        padding-left: 25vmin;
-        padding-right: 25vmin;      
-    } */
 }
 
 /*  
