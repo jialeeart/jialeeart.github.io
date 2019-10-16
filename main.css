@@ -10,6 +10,8 @@ nav {
 nav.scrolled {
   opacity: 0;
   transition: all 1s ease;
+  pointer-events: none;
+  cursor: default;
 }
 
 nav.scrolled.hover {
@@ -41,6 +43,17 @@ nav > #navLinks > a {
 
 nav > #navLinks > a:hover {
   text-decoration: underline;
+}
+
+footer {
+  font-family: 'Montserrat', 'Rubik', sans-serif;
+  font-size: 2vmin;
+  position: fixed;
+  text-align: center;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  color: #C0C0C0;
 }
 
 /* ############### START OF CSS3 SLIDESHOW ############### 

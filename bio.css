@@ -27,10 +27,24 @@
   padding: 5vmin;
 }
 
+bioFooter {
+  font-family: 'Montserrat', 'Rubik', sans-serif;
+  font-size: 2vmin;
+  position: absolute;
+  margin-top: 50vmin;
+  text-align: center;
+  width: 99%;
+  color: #C0C0C0;
+}
+
 @media screen and (max-width: 1140px) { 
   #bio {
     display: flex;
     flex-direction: column;
+  }
+
+  bioFooter {
+    margin-top: 80vmin;
   }
 }
 
@@ -38,5 +52,9 @@
   #bio {
     display: flex;
     flex-direction: column;
+  }
+
+  bioFooter {
+    margin-top: 80vmin;
   }
 }
