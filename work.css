@@ -11,10 +11,23 @@
   grid-template-columns: repeat(4, 1fr);
 }
 
+.workBlock {
+  display: flex;
+  flex-direction: column;
+  place-self: center;
+}
+
 .workImg {
   width: 20vmin;
   height: 20vmin;
+  object-fit: cover;
   place-self: center;
+}
+
+.workTxt {
+  margin-top: 5px;
+  text-align: center;
+  color: #C0C0C0
 }
 
 @media screen and (max-width: 1140px) {
