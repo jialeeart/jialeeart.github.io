@@ -52,7 +52,7 @@ bioFooter {
 
 @media screen and (max-width: 1140px) { 
   #bio {
-    margin-top: 50vmin;
+    margin-top: 30vmin;
     grid-template-columns: repeat(1, 1fr);
     grid-template-areas:
       "bioPic"
@@ -67,7 +67,7 @@ bioFooter {
 
 @media screen and (max-width: 600px) { 
   #bio {
-    margin-top: 50vmin;
+    margin-top: 30vmin;
     grid-template-columns: repeat(1, 1fr);
     grid-template-areas:
       "bioPic"
