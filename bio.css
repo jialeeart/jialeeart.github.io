@@ -18,6 +18,19 @@
   place-self: center;
 }
 
+#bioPicCrop {
+  width: 10em;
+  height: 10em;
+  position: relative;
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+#bioPicCrop > img {
+  width: 10em;
+  height: 10em;
+}
+
 #bio > #bioInfo {
   grid-area: bioInfo;
   display: flex;
