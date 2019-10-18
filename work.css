@@ -3,11 +3,11 @@
   margin-top: 30vmin;
   margin-left: 10vw;
   margin-right: 10vw;
-  margin-bottom: 30vh;
+  margin-bottom: 30vmin;
   font-size: 3vmin;
 
   display: grid;
-  grid-gap: 10vmin 10vmin;
+  grid-gap: 0vmin 10vmin;
   grid-template-columns: repeat(5, 1fr);
   grid-template-areas:
     "wb1 wb2 ln wb4 wb5"
@@ -30,7 +30,7 @@
   grid-area: ln;
   background: #e0e0e0;
   width: 1px;
-  height: 100vh;
+  height: 100vmin;
   place-self: center;
 }
 

@@ -1,20 +1,23 @@
 #work {
   font-family: 'Montserrat', 'Rubik', sans-serif;
   margin-top: 30vmin;
-  margin-left: 10vw;
-  margin-right: 10vw;
-  margin-bottom: 30vh;
+  margin-left: 8vw;
+  margin-right: 8vw;
+  margin-bottom: 30vmin;
   font-size: 3vmin;
 
-  display: grid;
-  grid-gap: 10vmin 10vmin;
-  grid-template-columns: repeat(4, 1fr);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 
 .workBlock {
   display: flex;
   flex-direction: column;
   place-self: center;
+  margin-left: 5vmin;
+  margin-right: 5vmin;
+  margin-bottom: 5vmin;
 }
 
 .workImg {
@@ -47,13 +50,7 @@ workFooter {
 }
 
 @media screen and (max-width: 1140px) {
-  #work {  
-    grid-template-columns: repeat(2, 1fr);
-  }
 }
 
 @media screen and (max-width: 600px) {
-  #work {
-    grid-template-columns: repeat(2, 1fr);
-  } 
 }
