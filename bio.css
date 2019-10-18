@@ -53,27 +53,29 @@ bioFooter {
 @media screen and (max-width: 1140px) { 
   #bio {
     margin-top: 50vmin;
-    display: flex;
-    flex-direction: column;
-  }
-
-  #bio > #bioInfo {
-    margin-top: 30vmin;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-areas:
+      "bioPic"
+      "bioInfo"
+      "bioInfo";
   }
 
   bioFooter {
-    margin-top: 80vmin;
+    margin-top: 100vmin;
   }
 }
 
 @media screen and (max-width: 600px) { 
   #bio {
     margin-top: 50vmin;
-    display: flex;
-    flex-direction: column;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-areas:
+      "bioPic"
+      "bioInfo"
+      "bioInfo";
   }
 
   bioFooter {
-    margin-top: 80vmin;
+    margin-top: 100vmin;
   }
 }
