@@ -57,6 +57,10 @@ bioFooter {
     flex-direction: column;
   }
 
+  #bio > #bioInfo {
+    margin-top: 20vmin;
+  }
+
   bioFooter {
     margin-top: 80vmin;
   }
