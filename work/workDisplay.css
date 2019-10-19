@@ -34,6 +34,7 @@
   height: 30vmin;
   object-fit: cover;
   place-self: center;
+  cursor: pointer;
 }
 
 .workImg:hover {
