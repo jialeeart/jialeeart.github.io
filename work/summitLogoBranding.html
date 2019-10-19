@@ -9,12 +9,13 @@
     <link href="https://fonts.googleapis.com/css?family=Rubik&display=swap" rel="stylesheet">
     <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
     <script src="../main.js"></script>
+    <script src="workDisplay.js"></script>
 
-    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-    <link rel="manifest" href="/site.webmanifest">
-    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+    <link rel="apple-touch-icon" sizes="180x180" href="../apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../favicon-16x16.png">
+    <link rel="manifest" href="../site.webmanifest">
+    <link rel="mask-icon" href="../safari-pinned-tab.svg" color="#5bbad5">
     <meta name="msapplication-TileColor" content="#da532c">
     <meta name="theme-color" content="#ffffff">
 </head>
@@ -29,30 +30,34 @@
             <a href="http://jialeeart.github.io/contact.html">CONTACT</a>
         </div>
     </nav>
-
+    
+    <div id="fullDisplay">
+      <img>
+    </div>
+  
     <div id="work">
       <div class="workBlock">
-        <img class="workImg" src="../images/Summit Logo Branding/thumbnail/ppt_roadmap_1.png">
+        <img class="workImg" src="../images/Summit Logo Branding/thumbnail/ppt_roadmap_1.png" onclick="fullDisplay('Summit Logo Branding','ppt_roadmap_1.png')">
         <h6 class="workTxt">PowerPoint Roadmap 1</h6>
       </div>
 
       <div class="workBlock">
-        <img class="workImg" src="../images/Summit Logo Branding/thumbnail/ppt_roadmap_2.png">
+        <img class="workImg" src="../images/Summit Logo Branding/thumbnail/ppt_roadmap_2.png" onclick="fullDisplay('Summit Logo Branding','ppt_roadmap_2.png')">
         <h6 class="workTxt">PowerPoint Roadmap 2</h6>
       </div>
 
       <div class="workBlock">
-        <img class="workImg" src="../images/Summit Logo Branding/thumbnail/ppt_roadmap_3.png">
+        <img class="workImg" src="../images/Summit Logo Branding/thumbnail/ppt_roadmap_3.png" onclick="fullDisplay('Summit Logo Branding','ppt_roadmap_3.png')">
         <h6 class="workTxt">PowerPoint Roadmap 3</h6>
       </div>
 
       <div class="workBlock">
-        <img class="workImg" src="../images/Summit Logo Branding/thumbnail/ppt_roadmap_4.png">
+        <img class="workImg" src="../images/Summit Logo Branding/thumbnail/ppt_roadmap_4.png" onclick="fullDisplay('Summit Logo Branding','ppt_roadmap_4.png')">
         <h6 class="workTxt">PowerPoint Roadmap 4</h6>
       </div>
         
       <div class="workBlock">
-        <img class="workImg" src="../images/Summit Logo Branding/thumbnail/summit_logo.png">
+        <img class="workImg" src="../images/Summit Logo Branding/thumbnail/summit_logo.png" onclick="fullDisplay('Summit Logo Branding','summit_logo.png')">
         <h6 class="workTxt">Summit Logo</h6>
       </div>    
     </div>

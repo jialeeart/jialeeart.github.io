@@ -9,12 +9,13 @@
     <link href="https://fonts.googleapis.com/css?family=Rubik&display=swap" rel="stylesheet">
     <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
     <script src="../main.js"></script>
+    <script src="workDisplay.js"></script>
 
-    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-    <link rel="manifest" href="/site.webmanifest">
-    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+    <link rel="apple-touch-icon" sizes="180x180" href="../apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../favicon-16x16.png">
+    <link rel="manifest" href="../site.webmanifest">
+    <link rel="mask-icon" href="../safari-pinned-tab.svg" color="#5bbad5">
     <meta name="msapplication-TileColor" content="#da532c">
     <meta name="theme-color" content="#ffffff">
 </head>
@@ -30,19 +31,23 @@
         </div>
     </nav>
 
+    <div id="fullDisplay">
+      <img>
+    </div>
+
     <div id="work">
       <div class="workBlock">
-        <img class="workImg" src="../images/black&white/thumbnail/Frog.jpg">
+        <img class="workImg" src="../images/black&white/thumbnail/Frog.jpg" onclick="fullDisplay('black&white','Frog.jpg')">
         <h6 class="workTxt">Frog</h6>
       </div>
 
       <div class="workBlock">
-        <img class="workImg" src="../images/black&white/thumbnail/Snake_korean.jpg">
+        <img class="workImg" src="../images/black&white/thumbnail/Snake_korean.jpg" onclick="fullDisplay('black&white','Snake_korean.jpg')">
         <h6 class="workTxt">Snake Korean</h6>
       </div>
 
       <div class="workBlock">
-        <img class="workImg" src="../images/black&white/thumbnail/Streets.jpg">
+        <img class="workImg" src="../images/black&white/thumbnail/Streets.jpg" onclick="fullDisplay('black&white','Streets.jpg')">
         <h6 class="workTxt">Streets</h6>
       </div>  
     </div>

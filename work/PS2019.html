@@ -9,12 +9,13 @@
     <link href="https://fonts.googleapis.com/css?family=Rubik&display=swap" rel="stylesheet">
     <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
     <script src="../main.js"></script>
+    <script src="workDisplay.js"></script>
 
-    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-    <link rel="manifest" href="/site.webmanifest">
-    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+    <link rel="apple-touch-icon" sizes="180x180" href="../apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../favicon-16x16.png">
+    <link rel="manifest" href="../site.webmanifest">
+    <link rel="mask-icon" href="../safari-pinned-tab.svg" color="#5bbad5">
     <meta name="msapplication-TileColor" content="#da532c">
     <meta name="theme-color" content="#ffffff">
 </head>
@@ -30,19 +31,23 @@
         </div>
     </nav>
 
+    <div id="fullDisplay">
+      <img>
+    </div>
+  
     <div id="work">
       <div class="workBlock">
-        <img class="workImg" src="../images/PS2019/thumbnail/dive_training.png">
+        <img class="workImg" src="../images/PS2019/thumbnail/dive_training.png" onclick="fullDisplay('PS2019','dive_training.png')">
         <h6 class="workTxt">Dive Training</h6>
       </div>
 
       <div class="workBlock">
-        <img class="workImg" src="../images/PS2019/thumbnail/launch_space.png">
+        <img class="workImg" src="../images/PS2019/thumbnail/launch_space.png" onclick="fullDisplay('PS2019','launch_space.png')">
         <h6 class="workTxt">Launch Space</h6>
       </div>
 
       <div class="workBlock">
-        <img class="workImg" src="../images/PS2019/thumbnail/roadmap.png">
+        <img class="workImg" src="../images/PS2019/thumbnail/roadmap.png" onclick="fullDisplay('PS2019','roadmap.png')">
         <h6 class="workTxt">Roadmap</h6>
       </div>
     </div>
