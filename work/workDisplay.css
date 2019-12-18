@@ -1,6 +1,27 @@
+#fullDisplay {
+  display: flex;
+  flex-direction: row;
+}
+
+#fullDisplay > i {
+  display: none;
+  cursor: pointer;
+  position: relative;
+  font-size: 15vmin;
+  top: 4em;
+  height: 15vmin;
+  margin-top: 0 auto;
+  margin-left: 5vmin;
+  margin-right: 5vmin;
+}
+
+#fullDisplay > i:hover {
+  opacity: 0.7;
+}
+
 #fullDisplay > img {
   display: block;
-  width: 70vw;
+  width: 50vw;
   height: auto;
   margin-top: 25vmin;
   margin-left: auto;

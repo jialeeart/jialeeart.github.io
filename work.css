@@ -11,7 +11,7 @@
   grid-template-columns: repeat(5, 1fr);
   grid-template-areas:
     "wb1 wb2 ln wb4 wb5"
-    "wb3 wb3 ln .   .";
+    "wb3 wb3 ln wb6 wb6";
 }
 
 #wb1 {
@@ -40,6 +40,10 @@
 
 #wb5 {
   grid-area: wb5;
+}
+
+#wb6 {
+  grid-area: wb6;
 }
 
 .workBlock {
@@ -83,7 +87,7 @@ workFooter {
     grid-template-areas:
       "wb1 ln wb4"
       "wb2 ln wb5"
-      "wb3 ln .";
+      "wb3 ln wb6";
   }
   
   #ln {
@@ -97,7 +101,7 @@ workFooter {
     grid-template-areas:
       "wb1 ln wb4"
       "wb2 ln wb5"
-      "wb3 ln .";
+      "wb3 ln wb6";
   }
 
   #ln {
