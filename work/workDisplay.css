@@ -85,4 +85,7 @@ workFooter {
 }
 
 @media screen and (max-width: 600px) {
+  #work {
+    justify-content: center;
+  }
 }
