@@ -15,6 +15,10 @@ function fullDisplay(folderName, imageName) {
 
   currentImageName = imageName;
 
+  $('#fullDisplay img').on("load", function() {
+    let fullDisplayArrowHeight = (fullDisplayImage.offsetHeight / 2) + 100;
+    $('.fullDisplayArrow').css("top", `${fullDisplayArrowHeight}px`);
+  });
   $('.fullDisplayArrow').css("display", "initial");
 
   $('html, body').animate({ scrollTop: 0 }, 'fast');
